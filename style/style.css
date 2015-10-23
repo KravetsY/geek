@@ -5,7 +5,9 @@
 .head{
 	text-align: center;
 }
-
+.img{
+	padding:0% 30% 0% 10%;
+}
 span { 
     text-decoration: underline; 
    }
@@ -20,3 +22,6 @@ li { list-style-type: none; } /* Убираем исходную нумерацию у списка */
     counter-increment: list2; /* Увеличиваем значение счетчика вложенного списка */
     content: counter(list1) "." counter(list2) ". "; /* Выводим число */
    }
+h2 {
+	display: inline
+}
